@@ -1,0 +1,110 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+
+:root {
+  --blue: #92A8D2;
+  --yellow: #F0C05B;
+  --green: #45B5AB;
+  --red: #D94F71;
+}
+
+html, body {margin:0;padding:0;height:100%;}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#banner {
+  padding: 175px 0 250px 0;
+  background-color: #92A8D2;
+}
+
+#info-row {
+  text-align: center;
+}
+
+#info-row a, #skill-banner a, #edu-banner a, #contact-banner a {
+  color: black;
+}
+
+#left-box {
+  background-color: #F0C05B;
+  padding: 20px 0 25px 0;
+}
+
+#middle-box {
+  background-color: #45B5AB;
+  padding: 20px 0 25px 0;
+}
+
+#right-box {
+  background-color: #D94F71;
+  padding: 20px 0 25px 0;
+}
+
+#skills-box {
+  background-color: black;
+  color: white;
+  padding: 150px 0 200px 0;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.logo-image {
+  height: 100px;
+  padding-top: 20px;
+}
+
+.logo-image img {
+  max-height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#edu-box {
+  padding: 150px 0 150px 0;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#edu-logo {
+  height: 100px;
+  padding-top: 20px;
+}
+
+#edu-logo img {
+  max-height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact-box {
+  background-color: black;
+  padding: 150px 0 150px 0;
+  color:white;
+}
+
+#skill-banner {
+  background-color: #F0C05B;
+  height: 15px;
+}
+
+#edu-banner {
+  background-color: #45B5AB;
+  height: 15px;
+}
+
+#contact-banner {
+  background-color: #D94F71;
+  min-height: 15px;
+}
+
+.go-home {
+  float: right;
+  padding-right: 15px;
+}
